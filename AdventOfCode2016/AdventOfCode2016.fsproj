@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="helpers.fs" />
+    <Content Include="Days\day07.txt" />
+    <Compile Include="Days\day07.fs" />
+    <Content Include="Days\day06.txt" />
+    <Compile Include="Days\day06.fs" />
+    <Content Include="Days\day05.txt" />
+    <Compile Include="Days\day05.fs" />
+    <Content Include="Days\day04.txt" />
+    <Compile Include="Days\day04.fs" />
+    <Content Include="Days\day03.txt" />
+    <Compile Include="Days\day03.fs" />
+    <Content Include="Days\day02.txt" />
+    <Compile Include="Days\day02.fs" />
+    <Content Include="Days\day01.txt" />
+    <Compile Include="Days\day01.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Collections.ParallelSeq" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>

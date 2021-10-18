@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AdventOfCode2016": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Robin\\Programming\\fs\\advent_of_code_2016\\AdventOfCode2016\\AdventOfCode2016"
+    }
+  }
+}
